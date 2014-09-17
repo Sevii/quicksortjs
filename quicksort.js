@@ -4,7 +4,7 @@
 function quicksort(arr){
 	'use strict';
 	if( arr === null){
-		
+		//do nothing
 	}
 
 	if(arr.length == 1){
