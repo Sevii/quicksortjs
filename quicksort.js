@@ -38,9 +38,10 @@ function quicksort(arr){
 				}
 			}
 		}
+		smaller.push(arr[pivot]);
 
 
-		return (quicksort(smaller).concat(arr[pivot], quicksort(larger)));
+		return (quicksort(smaller).concat(quicksort(larger)));
 	}
 }
 
